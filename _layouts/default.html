@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <title>{{ site.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+	</head>
+
+	<body>
+        <div id="header">
+            <div id="blog-name">
+                <a href="/">{{ site.title }}</a>
+            </div>
+            <nav id="navigator">
+                <ul>
+                    <li><a href="/">BLOG</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="http://feeds.feedburner.com/sxkachilles/blog">RSS</a></li>
+                    <li><a href="http://github.com/sxkachilles">GITHUB</a></li>
+                </ul>
+            </nav>
+        </div>
+
+		<div id="container">
+            <div id="motto">
+                <p>人的个人修为以及人的一生，就是克制人类本性的痛苦过程本身。</p>
+                <p>不去北京，毋宁死。</p>
+            </div>
+            <div id="index">
+                {{ content }}
+            </div>
+
+            <div id="footer">
+                <span>Powered by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> &amp; <a href="https://github.com" target="_blank">Github</a></span>
+                <span>| © 2012 <a href="http://sxkachilles.com">Eric Bi</a></span>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-18157702-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+	</body>
+</html>
+

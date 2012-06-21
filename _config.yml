@@ -1,0 +1,5 @@
+title: Blog of Eric Bi
+markdown: rdiscount
+pygments: true
+server: true
+auto: true
