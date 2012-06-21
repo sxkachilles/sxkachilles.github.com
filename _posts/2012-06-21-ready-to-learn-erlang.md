@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Simple Reference
+title: 准备学习 Erlang
 tags: [Erlang]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Simple Reference
+title: Markdown Simple Reference
 tags: [Markdown, Blog]
 ---
 # Markdown
